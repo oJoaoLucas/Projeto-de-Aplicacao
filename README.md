@@ -70,7 +70,6 @@ Adotou-se o modelo **incremental com prototipação evolutiva**, permitindo cicl
 - MySQL (Banco de dados)  
 - HTML + CSS (Frontend)  
 - FPDF (Geração de relatórios)  
-- Python (planejado para cálculos avançados futuros)  
 - Git + GitHub (Controle de versão)
 
 ---
