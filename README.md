@@ -50,20 +50,6 @@ Projeto desenvolvido como parte da disciplina **Engenharia de Software I** do cu
 
 ---
 
-## 📂 Organização do Projeto
-
-📦 EcoMonitor/
-┣ 📁 backend/ # Scripts PHP
-┣ 📁 pdf/ # Geração de relatórios
-┣ 📁 css/ # Estilo da aplicação
-┣ 📁 database/ # Dump e configuração do banco
-┣ 📁 screenshots/ # Imagens do sistema em execução
-┣ 📄 index.php
-┣ 📄 login.php
-┣ 📄 historico.php
-┣ 📄 editar_tarifa.php
-┗ 📄 README.md
-
 ## 📌 Observações
 
 - O projeto foi construído seguindo o modelo incremental com prototipação.
