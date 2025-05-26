@@ -93,7 +93,7 @@ http://localhost/pa_final_corrigido/index.php
 ---
 
 ## 📎 Licença
-Este projeto foi desenvolvido com fins acadêmicos e pode ser reutilizado para fins educacionais e experimentais.
----
+- Este projeto foi desenvolvido com fins acadêmicos e pode ser reutilizado para fins educacionais e experimentais.
+
 
 
