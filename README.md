@@ -18,78 +18,80 @@
 
 ---
 
-## 📝 1. Definição do Escopo do Projeto
+## 📘 Descrição Geral
 
-**Cenário de Negócio:**  
-Com o aumento constante do custo da energia elétrica e o incentivo ao uso de fontes renováveis como a energia solar, cresce a demanda por ferramentas que ajudem consumidores a entender e otimizar seu consumo. Acompanhamentos manuais dificultam a análise de economia real e o planejamento. O EcoMonitor surge como solução simples e acessível para organizar, registrar e apresentar essas informações.
-
-**Objetivo do Projeto:**  
-Desenvolver um sistema web para registrar e acompanhar consumo e geração solar, calcular economia mensal, e gerar relatórios prontos para visualização ou impressão.
-
-**Restrições:**
-- Sem gráficos ou visualizações avançadas na versão inicial;
-- Relatórios simples com opção de impressão;
-- Backend modular em PHP com possibilidade de integração com Python;
-- Sem login de usuários nesta primeira versão.
+O **EcoMonitor** é um sistema web criado com o objetivo de registrar, acompanhar e analisar dados de consumo energético e geração de energia solar em residências. Com a constante alta no custo da energia elétrica e a crescente adoção de fontes renováveis, como a energia solar, torna-se essencial fornecer aos consumidores uma ferramenta simples e eficaz que permita a visualização clara de seus gastos, economia e retorno sobre o investimento. A proposta do sistema surgiu como solução acadêmica com potencial de aplicação real no auxílio ao planejamento energético domiciliar.
 
 ---
 
-## 🔁 2. Estratégia para o Desenvolvimento do Projeto
+## 🎯 Objetivos do Projeto
 
-**Modelo de Processo:** Ciclo de Vida Incremental com Prototipagem.  
-Desenvolvimento em fases: inserção de dados → geração de cálculo → expansão futura com dashboards e gráficos.
+### Objetivo Geral:
+Desenvolver um sistema acessível que permita o monitoramento de consumo e geração de energia solar em residências.
 
-**Justificativa:**  
-Permite ajustes constantes durante o desenvolvimento e reduz riscos ao incorporar feedback de forma evolutiva.
-
----
-
-## ✅ 3. Requisitos
-
-### Requisitos Funcionais
-- Inserção de dados de consumo energético diário e geração solar.
-- Cálculo automático de economia.
-- Armazenamento em banco de dados relacional.
-- Geração de relatórios com os dados e cálculos.
-
-### Requisitos Não-Funcionais
-- Uso de MySQL como banco de dados.
-- Backend em PHP.
-- Scripts Python planejados para futuras versões.
-- Versionamento com GitHub.
-- Código organizado e comentado.
-
-### Regras de Negócio
-- Base de cálculo: 30 dias/mês.
-- Validação de campos numéricos (sem valores negativos ou nulos).
+### Objetivos Específicos:
+- Registrar dados diários de consumo e geração solar;
+- Calcular automaticamente a economia mensal com base na tarifa configurável;
+- Gerar relatórios em PDF para visualização ou impressão;
+- Exportar os dados para outras ferramentas;
+- Permitir comparação entre diferentes residências.
 
 ---
 
-## 📌 4. User Story (Especificação Ágil)
+## 🚧 Requisitos
 
-**User Story 1 – Inserção de Dados**  
-> Como usuário,  
-> Quero inserir meus dados de consumo, tarifa de energia e geração solar,  
-> Para que o sistema calcule meu gasto e economia.
+### ✅ Requisitos Funcionais:
+- Inserção de dados de consumo energético, tarifa e geração solar;
+- Cálculo automático de economia energética e retorno sobre investimento (payback);
+- Armazenamento das informações em banco de dados relacional (MySQL);
+- Geração de relatórios a partir dos dados registrados.
 
-**Tasks:**
-- Criar formulário com campos de entrada
-- Validar campos obrigatórios
-- Salvar dados no banco
+### 🔁 Requisitos Não Funcionais:
+- Backend em PHP;
+- Scripts de cálculo planejados para futura integração com Python;
+- Estrutura modular e versionada via GitHub;
+- Código limpo, documentado e estruturado para manutenção.
 
----
-
-## 🖥️ Tecnologias Utilizadas
-
-- PHP (backend)
-- MySQL (banco de dados)
-- HTML/CSS (frontend)
-- FPDF (geração de relatórios em PDF)
-- Python (planejado para cálculos avançados)
-- Git/GitHub (versionamento)
+### 📐 Regras de Negócio:
+- O cálculo mensal considera um mês fixo de 30 dias;
+- Todos os valores numéricos devem ser positivos e preenchidos corretamente.
 
 ---
 
-## 📎 Licença
+## 🔁 Modelo de Processo Utilizado
 
-Este projeto é de uso acadêmico e livre para fins educacionais.
+Adotou-se o modelo **incremental com prototipação evolutiva**, permitindo ciclos iterativos de desenvolvimento. Isso garantiu flexibilidade para inserir ajustes durante a implementação e organizar o desenvolvimento em etapas: inserção de dados → geração de cálculo → criação de relatórios e visualização.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- PHP (Backend)  
+- MySQL (Banco de dados)  
+- HTML + CSS (Frontend)  
+- FPDF (Geração de relatórios)  
+- Python (planejado para cálculos avançados futuros)  
+- Git + GitHub (Controle de versão)
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+
+git clone https://github.com/seuusuario/ecomonitor.git
+
+2. Importe o banco de dados no MySQL;
+
+3. Configure a conexão no arquivo conexao.php;
+
+4. Inicie o servidor Apache (XAMPP ou outro);
+
+5. Acesse no navegador:
+
+http://localhost/pa_final_corrigido/index.php
+
+##📎 Licença
+Este projeto foi desenvolvido com fins acadêmicos e pode ser reutilizado para fins educacionais e experimentais.
+
+
