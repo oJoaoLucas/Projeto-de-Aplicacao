@@ -78,9 +78,9 @@ Adotou-se o modelo **incremental com prototipação evolutiva**, permitindo cicl
 ## 🚀 Como Executar o Projeto
 
 1. Clone o repositório:
-
+```
 git clone https://github.com/seuusuario/ecomonitor.git
-
+```
 2. Importe o banco de dados no MySQL;
 
 3. Configure a conexão no arquivo conexao.php;
@@ -88,9 +88,9 @@ git clone https://github.com/seuusuario/ecomonitor.git
 4. Inicie o servidor Apache (XAMPP ou outro);
 
 5. Acesse no navegador:
-
+```
 http://localhost/pa_final_corrigido/index.php
-
+```
 ---
 
 ##📎 Licença
